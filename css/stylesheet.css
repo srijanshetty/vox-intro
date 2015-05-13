@@ -1,0 +1,157 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#389FAE;
+}
+
+a{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#FFFFFF;
+}
+
+a:hover{
+	text-decoration:none;
+	background-color:#efff00;
+	color:#369fae;
+}
+
+h1{
+	font-variant: small-caps;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color:#efff00;
+}
+
+h2{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1.4em;
+	font-weight:bold;
+	color:#efff00;
+}
+
+#wrapper{
+	float:left;
+	width:100%;
+	height:100%;
+}
+
+#left-col{
+	width:35%;
+	float:left;
+}
+
+#left-col #page-title{
+	width:100%;
+	padding-top:100px;
+	padding-bottom:20px;
+	float:left;
+	text-align:right;
+	line-height:38px;
+	border-bottom:#efff00 20px solid;
+}
+
+#left-col #main-menu{
+	float:left;
+	width:100%;
+	padding-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:right;
+}
+
+#left-col #main-menu ul {
+	list-style:none;
+}
+
+#right-col{
+	width:60%;
+	margin-left:5px;
+	float:right;
+	border-top:#efff00 20px solid;
+}
+
+#right-col #hot-spot{
+	width:100%;
+	margin-top:20px;
+	margin-bottom: 30px;
+	float:left;
+	font-size:72px;
+	color:#FFFFFF;
+	text-align:left;
+	font-weight:bold;
+	letter-spacing:-5px;
+	line-height:55px;
+}
+
+.texts{
+	width:250px;
+	margin-right:5%;
+	margin-top:60px;
+	font-size:12px;
+	color:#FFFFFF;
+	float:left;
+}
+
+.texts p{
+	margin:0;
+	padding:0;
+	float:left;
+	text-align:left;
+	font-size: 1.3em;
+}
+
+.texts p:first-letter{
+	font-size:14px;
+}
+
+#rodape_container{
+	width:100%;
+	float:left;
+	height:40px;
+	color:#FFFFFF;
+	font-size:16px;
+	margin-top:50px;
+}
+
+#rodape{
+	height:40px;
+	width:100%;
+	float:right;
+	padding:0;
+	border-bottom:#efff00 10px solid;
+	text-align:right;
+}
+
+#rodape p{
+	margin-right:5%;
+}
+
+#main-menu a {
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+
+.main-text {
+	color: white;
+	font-size: 1.35em;
+}
+
+#main-menu {
+	margin-bottom: 100px;
+}
+
+.contact {
+	text-align: right;
+	color: white;
+	font-size: 1.2em;
+}
